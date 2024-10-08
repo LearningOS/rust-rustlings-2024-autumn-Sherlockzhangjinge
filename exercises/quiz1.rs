@@ -15,15 +15,11 @@
 
 
 // Put your function here!
-fn calculate_price_of_apples(number: i32) -> i32 {
-
-    if number > 40 {
-        number
-    } else {
-        number * 2
-    }
+// fn calculate_price_of_apples {
+pub fn calculate_price_of_apples(mount:i32)->i32 
+{
+    if mount<=40{ 2*mount } else{ mount}
 }
-
 // Don't modify this function!
 #[test]
 fn verify_test() {

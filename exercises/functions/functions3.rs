@@ -5,7 +5,8 @@
 
 
 fn main() {
-    call_me(3);
+    let x:u32=50;
+    call_me(x);
 }
 
 fn call_me(num: u32) {
